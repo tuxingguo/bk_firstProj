@@ -23,10 +23,10 @@ DATABASES.update(
     {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
-            'NAME': '',  # 数据库名
-            'USER': '',  # 数据库用户
-            'PASSWORD': '',  # 数据库密码
-            'HOST': '',  # 数据库主机
+            'NAME': 'myTestProjDB',  # 数据库名
+            'USER': 'myTestProjDB',  # 数据库用户
+            'PASSWORD': 'myTestProjDB@2018',  # 数据库密码
+            'HOST': '172.18.43.129',  # 数据库主机
             'PORT': '3306',  # 数据库端口
         },
     }
