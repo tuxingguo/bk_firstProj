@@ -10,5 +10,5 @@ from mytestapp import views
 
 
 urlpatterns = (
-    url(r'^mytestapp', views.myFunc),
+    url(r'^', views.myFunc),
 )
